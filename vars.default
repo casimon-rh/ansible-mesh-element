@@ -1,0 +1,24 @@
+
+openshift_url: 
+openshift_username: 
+openshift_password: 
+helmchart_url: 
+helmchart_namespace: 
+helmchart_gwelement:
+- name: aa
+  next: bb
+helmchart_elements:
+- name: bb
+  next: cc
+- name: cc
+  next: dd
+- name: dd
+  next: ee
+- name: ee
+  next: ff
+- name: ff
+  next: gg
+- name: gg
+  next: hh
+- name: hh
+  next: aa

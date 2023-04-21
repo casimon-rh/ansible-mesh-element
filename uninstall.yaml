@@ -1,0 +1,8 @@
+---
+- hosts: localhost
+  become: no
+  gather_facts: no
+  vars:
+    helmchart_state: absent
+  roles:
+    - mesh-element-role
