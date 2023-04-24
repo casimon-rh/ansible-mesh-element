@@ -5,4 +5,4 @@
   vars:
     helmchart_state: absent
   roles:
-    - mesh-element-role
+    - mesh.element.mesh-element-role
