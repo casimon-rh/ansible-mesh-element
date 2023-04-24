@@ -4,5 +4,7 @@
   gather_facts: no
   vars:
     helmchart_state: absent
+  collections:
+    - mesh.element
   roles:
-    - mesh.element.mesh-element-role
+    - name: mesh.element.mesh-element-role

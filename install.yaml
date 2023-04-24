@@ -2,5 +2,7 @@
 - hosts: localhost
   become: no
   gather_facts: no
+  collections:
+    - mesh.element
   roles:
-    - mesh.element.mesh-element-role
+    - name: mesh.element.mesh-element-role
